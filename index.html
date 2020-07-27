@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animate on scroll library -->
+</head>
+<body>
+    <div class="main-container"> 
+        <!-- background video -->
+        <div class='video-wrapper'>
+            <video class="videoBg" poster="poster.mp4" autoplay muted loop>
+            <source src="resource/webDev.mp4" type="video/mp4">
+            </video> 
+        </div>
+        <!-- wrapper for media query -->
+        <div id="nav-wrapper">
+            <!-- for large screet wrapper -->
+        <div class="vertical-nav"> 
+                     <!-- for small screen wrapper -->
+          <!--   <div class="small-vertical-nav"> -->
+                     <!-- close icon -->
+            <i class="fa fa-close" onclick="closeMenu()" id="close"></i>
+           <a href="#aboutme"><i class="fa fa-user"></i></a>
+           <a href="#skills"><i class="fa fa-wrench"></i></a>
+            <a href="#education"><i class="fa fa-book"></i></a>
+           <a href="#work"><i class="fa fa-briefcase"></i></a>
+           <a href="#programming-projects"><i class="fa fa-code"></i></a>
+            <a href="#contact"><i class="fa fa-sign-in"></i></a>
+        </div>
+   <!--  </div> -->
+    </div>
+    <!-- add hamburger icon -->
+    <i class="fa fa-bars" onclick="showMenu()" id="hamburger"></i> 
+        <!-- main page -->
+        <div class="display-part">
+            <h1 class="h1">Motivated <span class="span"> Web Developer </span>
+                <br>quest for the next challenge</h1>
+                <button class="button"><a href="#contact">Contact</a></button>
+        </div>
+         <!-- aboutme part -->
+         <section class="aboutme" id="aboutme">
+            <h2 class="h2">Aboutme</h2>
+                <p class="aboutmeP"> I am Ashenafi SHIFERAW. I was born in Addis-Ababa, Ethiopia. Currently, 
+                    I am Berlin based and I am studying Internet of Things (IoT) in action,
+                    in ReDI Digital Integration school. Previously, I have studied and practicing 
+                    web-development since October 2018. I have a very good knowledge of HTML, 
+                    SCC and SASS, BOOTSTRAP, JAVA-SCRIPT, REACT and I also have a good understanding 
+                    of backend technologies such as NODE.JS, MongoDB, MYSQL, EXPRESS etc.
+                    In my pre-web development experience, I studied Banking and Finance and French language 
+                    & communication and pedagogy and hold a Master’s degree from Rouen 
+                    University in France. I have several years of working experience as a French 
+                    language teacher and translator in different local and international organizations.
+            </p>
+        </section>
+
+        <!-- skills part -->
+        <section class="skills" id="skills">
+            <h2 class="h2">Skills</h2>
+            <p class="skillsP">
+                Though it is problematique to quantify my skills, just to give you an idea of what skills I have
+                and how good I think I am in each of them I am trying to present them as below.
+            </p>
+            <!-- skills row -->
+            <div class="mySkills">
+                <li>
+                    <h2>HTML</h2><span class="bar"><span class="html"></span></span> 
+                </li>
+                <li>
+                    <h2>CSS</h2><span class="bar"><span class="css"></span></span> 
+                </li>
+                <li>
+                    <h2>JS</h2><span class="bar"><span class="js"></span></span> 
+                </li>
+                <li>
+                    <h2>REACT</h2><span class="bar"><span class="react"></span></span> 
+                </li>
+                <li>
+                    <h2>NODE</h2><span class="bar"><span class="node"></span></span> 
+                </li>
+
+            </div>
+        </section>
+         <!-- education part -->
+         <section class="education" id="education">
+            <h2 class="h2">Education</h2>
+            <div class="sub-education"> 
+
+                <h2 class="sub-edu-p">General Education</h2> 
+               <p class="educationP"> 
+                   I graduated with a Diploma in Banking and Finance from Addis Ababa University School of
+                   Commerce in 2004. I continued my education with a Bachelor in French language and
+                   communication at Addis Ababa University from which I graduated with distinction in 2009. 
+                   Being awarded with a French government funded scholarship, I continued studying Teaching 
+                   French as a foreign language. I graduated with a Masters from the University of Rouen in 
+                   France in 2011. For several years I worked as French language teacher and translator in 
+                   various local and international organizations, including Addis Ababa University, 
+                   Alliance-francaise, the African Union and I delivered private & group courses in the German GIZ, 
+                   the Ministry of Foreign Affairs in Addis etc. And, private contract translation works with UNESCO 
+                   and many other organizations.
+           </p>
+
+           <h2 class="sub-edu-p">Web Related Education</h2>    
+           <p class="educationP1">
+               I joined DCI (Digital Career Institute) in August 2018 to start my web-development education. I have 
+               learned and I am still learning a lot on daily basis. I learned and used many programming languages 
+               and libraries such as HTML, SCC, SASS, BOOTSTRAP, JAVA-SCRIPT, REACT, NODE.JS, mongoDB, MYSQL, 
+               EXPRESS etc. which I used to make websites and small apps. I already practiced a variety of 
+               technologies and am highly motivated for and interested in programming. I am therefore looking 
+               forward to joining a company and apply what I have already leaned and continue to learn more. 
+               I am eager to broaden my knowledge every day and to code amazing apps.
+           </p>
+           </div>
+        </section>
+         <!-- work part -->
+         <section class="work" id="work">
+            <h2 class="h2">Work</h2>
+            <div class="sub-work">
+                <h2 class="sub-work-p">Previous Work Experience</h2>
+                <p class="workP">
+                    As a teacher and a translator, I worked in various organizations and with people from different 
+                    age groups, educational backgrounds and different nationalities. My intercultural communication 
+                    skills and my intercultural sensitivity was a great advantage for this task. Furthermore I 
+                    developed and applied my self-confidence in public speech, group-working, brainstorming and 
+                    collective problem solving.
+                </p>
+
+                <h2 class="sub-work-p">Web Related Job Experience</h2>
+                <p class="workP1">
+                    I managed to learn a lot during my one year stay at DCI and I have already applied much of the coding 
+                    technics that I learned. I am learning a lot from different sources and I am always eager to apply 
+                    new things. I managed to make different web-sites and various mini apps which could perform various 
+                    functions. For my final project, I have participated in a group and we have tried to impliment Internet 
+                    of things (IoT) by realizing a home automation project. Once I have finished the project, currently I 
+                    have joined ReDI Digital integration school with the aim of learnig IoT more in depth.
+                    Furthermore, I am eager to build on my experience and join a motivated and motivating team and 
+                    accomplish more nice things together. I invite you to go to the below links in order to visit my deployed 
+                    works on github :
+            </p>
+            </div>
+        </section>
+         <!-- programming-projects part -->
+         <section class="programming-projects" id="programming-projects">
+            <h2 class="h2" id="h2">Programming Projects</h2>
+            <div class="card" id="card">
+                <img src="" alt="" class="img1" id="img">
+                <div class="text">
+                    <h3>Shopping Card with Route</h3>
+                    <p class="p">Shopping Card With Route is an eCommerce website made with html, css and javascript. This 
+                        eCommerce platform has four categories. Currently, online payment method is not included, instead 
+                        the buyer could get the sellers contact list from the platform and contact and settle the process 
+                        either via telephone or email.</p>
+                        <a href="https://melkam22.github.io/shoppingCardWzRoute/" target="_blank" class="linkBtn">Link</a>
+                </div>
+            </div>
+            <!-- SECOND -->
+            <div class="card" data-aos="fade-right" id="card">
+                <img src="" alt="" class="img2" id="img">
+                <div class="text">
+                    <h3>Weekly Meal Plan with Localhost</h3>
+                    <p class="p">Weekly Meal Plan is a simple application to plan your daily and weekly food program. I use html, 
+                        css and javascript and the user can save the data on local storage. This application has integrated CRUD 
+                        operation, hence, the user can insert, amend or delete contents to or from his/her daily or weekly list. </p>
+                        <a href="https://melkam22.github.io/WeeklyMealPlanWzReact/" target="_blank" class="linkBtn">Link</a>
+                </div>
+            </div>
+            <!-- THIRD -->
+            <div class="card" data-aos="fade-left" id="card">
+                <img src="" alt="" class="img3" id="img">
+                <div class="text">
+                    <h3>Guess Random Number Game</h3>
+                    <p class="p">Random Number Generator is a simple game application. The user can insert indicated numbers 
+                        and based the inserted number he/she will have two chances; either to win or try two more times. If 
+                        he/she fails to guess the correct number he/she can click reset and continue playing until he/she wins. </p>
+                        <a href="https://melkam22.github.io/Simple_Guess_Number_Game/guessgame2.html" target="_blank" class="linkBtn">Link</a>
+                </div>
+            </div>
+            <!-- FOURTH -->
+            <div class="card" data-aos="fade-right" id="card">
+                <img src="" alt="" class="img4" id="img">
+                <div class="text">
+                    <h3>Weather App With React</h3>
+                    <p class="p">This Weather App is made with html, css and react. This app could show daily temperature, 
+                        humidity, wind-speed, max-temperature and country. The user can insert any city/country and he/she 
+                        could see the above mentioned informations and along with the weather condition the background image 
+                        and the weather-icon will change.</p>
+                        <a href="https://melkam22.github.io/weather-app-react/" target="_blank" class="linkBtn">Link</a>
+                </div>
+            </div>
+            <!-- FIVTH -->
+            <div class="card" data-aos="fade-left" id="card">
+                <img src="" alt="" class="img5" id="img">
+                <div class="text">
+                    <h3>Tour Website</h3>
+                    <p class="p">Tour website is fully functioning website made with html, css and javascript. This site 
+                        contains list of destinations, price, photo-gallery, clients-testimony, offers and other details. 
+                        This site as all the previous websites, are small screen friendly and fully responsive.</p>
+                       <a href="https://melkam22.github.io/TourGithub/index.html" target="_blank" class="linkBtn">Link</a> 
+                </div>
+            </div>
+        </section>
+         <!-- contact part -->
+         <section class="contact" id="contact">
+            <h2 class="h2">Contact</h2>
+            <form method="POST" data-email="ashenshi@gmail.com" 
+                action="https://script.google.com/macros/s/AKfycbzi5Xvnbl4LLjQJXB2rebRMKcy5oL1eiYt5NlPS/exec" id="form">
+            <input name="name" class="input" type="text" id="name" placeholder="your name" required>
+            <input name="email" class="input" type="email" id="email" placeholder="your email" required>
+            <textarea name="message" id="message" cols="30" rows="4" placeholder="what you have in mind" required></textarea>
+            <button class="btn"><i class="fa fa-paper-plane-o"></i></button>
+        </form>
+        </section>
+
+        <!-- go totop -->
+        <div class="gotoTop">
+           <a href="#top"><i class="fa fa-arrow-up"></i></a>  
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <a href="https://www.google.com/gmail/about/" target="_blank"><i class="fa fa-envelope-o"></i></a>
+            <a href="https://www.linkedin.com/in/ashenafi-shiferaw/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/Melkam22?tab=repositories" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+    
+    </div> 
+    <!-- link to on scroll animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+      </script>
+
+    <script src="interact.js"></script>
+</body>
+</html>
