@@ -446,8 +446,9 @@ textarea{
     bottom: 40px;
 }
 .footer a{
-    color: yellowgreen;
+    color: rgba(33,55,3,.9);
     font-size: 27px;
+    
 }
 
 /* media query */
